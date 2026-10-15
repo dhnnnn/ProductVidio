@@ -23,6 +23,8 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
-    "lint": "eslint src && tsc"
+    "lint": "eslint src && tsc",
+    "render": "remotion render After10PMBrandFilm out/after10pm.mp4",
+    "render:still": "remotion still After10PMBrandFilm"
   }
 }
